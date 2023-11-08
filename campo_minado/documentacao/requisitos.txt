@@ -1,0 +1,31 @@
+1. Interface de linha de comando para interação com o jogador.
+2. Opções de níveis de dificuldade (Fácil, Intermediário, Difícil).
+3. Geração de tabuleiro de jogo com base no nível de dificuldade.
+4. Colocação de bombas aleatoriamente no tabuleiro.
+5. Cálculo dos números de bombas vizinhas para cada célula no tabuleiro.
+6. Exibição do tabuleiro do jogador.
+7. Sistema de controle de tempo para medir o tempo de jogo.
+8. Capacidade de marcar e desmarcar células como bandeiras.
+9. Lógica para abertura de células vazias e revelação de células adjacentes.
+10. Verificação de vitória ou derrota do jogador.
+11. Mensagens de vitória ou derrota.
+12. Opção para salvar o histórico de partidas.
+13. Opção para ver o histórico de partidas.
+14. Exibição de informações sobre o jogador atual, como nome e pontuação.
+15. Tratamento de erros, como entrada inválida do jogador.
+16. Mensagens e feedback claros para o jogador.
+17. Opção para encerrar o jogo a qualquer momento.
+18. Tratamento de exceções para garantir a estabilidade do jogo.
+19. Opção para reiniciar o jogo após a vitória ou derrota.
+20. Contagem de bombas marcadas corretamente pelo jogador.
+21. O tabuleiro deve iniciar apenas com células contendo o caractere '?', simbolizando que a mesma está fechada
+22. O tabuleiro do usuário no modo fácil deve conter 8 linhas e 8 colunas.
+23. O tabuleiro no modo facil deve ser criado com exatamente 10 bomba, distribuidas aleatoriamente.
+24. O tabuleiro do usuário no modo intermediario deve conter 10 linhas e 16 colunas.
+25. O tabuleiro no modo intermediario deve ser criado com exatamente 30 bombas, distribuidas aleatoriamente.
+26. O tabuleiro do usuário no modo intermediario deve conter 24 linhas e 24 colunas.
+27. O tabuleiro no modo dificil deve ser criado com exatamente 100 bombas, distribuidas aleatoriamente.
+28. Aberturas de celulas visinhas quando não há bombas
+29. limpeza do terminal após a execução da jogada
+30. limpeza automatica do terminal após o encerramento do jogo
+31. Capacidade de personalizar os símbolos usados no tabuleiro (por exemplo, substituir "M" por outra marca).

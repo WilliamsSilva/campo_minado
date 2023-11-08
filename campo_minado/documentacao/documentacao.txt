@@ -1,0 +1,1359 @@
+ARQUIVO CRIAR_TEBULEIRO_USUARIO
+Método: test_criar_tabuleiro_facil
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "fácil" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 8x8, e deve conter um total de 10 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 8x8 e 10 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 8x8, ou seja, deve conter 8 linhas e 8 colunas.
+           Deve haver exatamente 10 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+
+Método: test_criar_tabuleiro_intermediario
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "intermediario" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 10x16, e deve conter um total de 30 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 10x16 e 30 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 10x16, ou seja, deve conter 10 linhas e 16 colunas.
+           Deve haver exatamente 30 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+
+Método: test_criar_tabuleiro_dificil
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "dificil" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 24x24, e deve conter um total de 100 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 24x24 e 100 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 8x8, ou seja, deve conter 24 linhas e 24 colunas.
+           Deve haver exatamente 100 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+ARQUIVO TEST_IMPRIMIR_TABULEIRO_USUARIO
+Método: test_imprimir_tabuleiro_8x8
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 8x8 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 8x8 e 10 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 8x8 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+Método: test_imprimir_tabuleiro_10x16
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 10x16 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 10x16 e 30 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 10x16 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+Método: test_imprimir_tabuleiro_24x24
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 24x24 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 24x24 e 100 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 24x24 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+ARQUIVO TEST_IMPRIMIR_TABULEIRO_MINADO
+Método: test_imprimir_tabuleiro_minado_8x8
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 8x8 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 8x8 e 10 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 8x8 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+Método: est_imprimir_tabuleiro_minado_10x16
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 10x16 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 10x16 e 30 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 10x16 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+Método: test_imprimir_tabuleiro_minado_24x24
+Descrição: O teste verifica se a impressão de um tabuleiro de dimensões 24x24 é realizada corretamente.
+           Ele cria uma instância da classe Tabuleiro_usuario com as dimensões 24x24 e 100 bombas.
+           Em seguida, ele chama o método imprimir_tabuleiro() do objeto tabuleiro e verifica se a saída é None.
+           Isso significa que o teste pretende verificar se a impressão do tabuleiro 24x24 não resulta em exceções ou erros.
+Requisitos:Este teste não impõe requisitos específicos em relação ao conteúdo do tabuleiro, visa apenas verificar a capacidade do método imprimir_tabuleiro de manipular um tabuleiro de tamanho considerável.
+
+
+ARQUIVO TEST_CRIAR_TABULEIRO_USUARIO
+Método: test_criar_tabuleiro_usuario_facil
+Descrição: O teste verifica se a criação de um tabuleiro do usuário no modo fácil é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 8 linhas, 8 colunas e 10 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_usuario com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas e colunas e se cada célula contém apenas um caractere '?'.
+Requisitos:O tabuleiro do usuário no modo fácil deve conter 8 linhas e 8 colunas.
+           O tabuleiro deve ser criado com exatamente 10 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?'
+
+Método: test_criar_tabuleiro_usuario_intermediario
+Descrição: O teste verifica se a criação de um tabuleiro do usuário no modo intermediario é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 10 linhas, 16 colunas e 30 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_usuario com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas e colunas e se cada célula contém apenas um caractere '?'.
+Requisitos:O tabuleiro do usuário no modo fácil deve conter 10 linhas e 16 colunas.
+           O tabuleiro deve ser criado com exatamente 30 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?'
+
+Método: test_criar_tabuleiro_usuario_dificil
+Descrição: O teste verifica se a criação de um tabuleiro do usuário no modo dificil é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 24 linhas, 24 colunas e 100 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_usuario com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas e colunas e se cada célula contém apenas um caractere '?'.
+Requisitos:O tabuleiro do usuário no modo fácil deve conter 24 linhas e 24 colunas.
+           O tabuleiro deve ser criado com exatamente 100 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?'
+
+ARQUIVO TEST_CRIAR_TABULEIRO_MINADO
+Método: test_criar_tabuleiro_minado_facil
+Descrição: O teste verifica se a criação de um tabuleiro minado no modo fácil é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 8 linhas, 8 colunas e 10 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_minado com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas, colunas e se o número de bombas no tabuleiro é igual ao número de bombas especificado.
+Requisitos:O tabuleiro minado no modo fácil deve conter 8 linhas e 8 colunas.
+           O tabuleiro minado no modo fácil deve ser criado com exatamente 10 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?' e 'ó'
+
+Método: test_criar_tabuleiro_minado_intermediario
+Descrição: O teste verifica se a criação de um tabuleiro minado no modo intermediario é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 10 linhas, 16 colunas e 30 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_minado com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas, colunas e se o número de bombas no tabuleiro é igual ao número de bombas especificado.
+Requisitos:O tabuleiro minado no modo intermediario deve conter 10 linhas e 16 colunas.
+           O tabuleiro minado no modo fácil deve ser criado com exatamente 30 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?' e 'ó'
+
+Método: test_criar_tabuleiro_minado_dificil
+Descrição: O teste verifica se a criação de um tabuleiro minado no modo dificil é realizada corretamente.
+           Ele define os parâmetros de um tabuleiro fácil com 24 linhas, 24 colunas e 100 bombas.
+           Em seguida, ele cria um objeto Tabuleiro_minado com esses parâmetros e chama o método criar_tabuleiro().
+           O teste avalia se o tabuleiro foi criado com o número correto de linhas, colunas e se o número de bombas no tabuleiro é igual ao número de bombas especificado.
+Requisitos:O tabuleiro minado no modo dificil deve conter 24 linhas e 24 colunas.
+           O tabuleiro minado no modo dificilficil deve ser criado com exatamente 100 bombas.
+           O tabuleiro deve consistir apenas de células contendo o caractere '?' e 'ó'
+
+ARQUIVO TEST_CONTAR_BOMBAS_AO_REDOR_TABULEIRO_8X8
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 0x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 0x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 0x4 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 0x6 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 0x7 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 1x0 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 1x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 1x4 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 1x6 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 1x7 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 4x0 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 4x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 4x4 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 4x6 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 4x7 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 6x0 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 6x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 6x4 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 6x6 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 6x7 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 7x0 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 7x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 7x4 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 7x6 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_8x8
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, não contém bombas, e a célula 7x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 não tenha bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O tabuleiro é definido como uma matriz 8x8 (8 linhas e 8 colunas) com todos os elementos definidos como '-', indicando a ausência de bombas.
+           O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_8x8_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 (canto superior esquerdo) deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_8x8_2_bombaa
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_8x8_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_8x8_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+ARQUIVO TEST_CONTAR_BOMBAS_AO_REDOR_TABULEIRO_10X16
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 0x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 0x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x8__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 0x8 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x8 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 0x8 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x14__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x14 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 0x14 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x15__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 0x15 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x15 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 0x15 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 1x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 1x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 1x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x8__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 1x8 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x8 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 1x8 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x14__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x14 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 1x14 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_1x15__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 1x15 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x15 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 1x15 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_5x0__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 5x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 5x0 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 5x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_5x1__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 5x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 5x1 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 5x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_5x8__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 5x8 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 5x8 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 5x8 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_5x14__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 5x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 5x14 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 5x14 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_5x15__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 5x15 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 5x15 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 5x15 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_8x0__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 8x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 8x0 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 8x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_8x1__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 8x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 8x1 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 8x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_8x8__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 8x8 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 8x8 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 188 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_8x14__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 8x14 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 8x14 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 8x14 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_8x15__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 8x15 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 8x15 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 8x15 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_9x0__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 9x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 9x0 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 9x0 (canto superior esquerdo) deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_9x1__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 9x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 9x1 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 9x1 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_9x8__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 9x8 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 9x8 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 9x8 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_9x14__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 9x14 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 9x14 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 9x14 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_9x15__tabuleiro_10x16
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, zero bombas, e a célula 9x15 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 9x15 contenha zero bombas ao seu redor, e, portanto, a contagem de bombas deve ser igual a 0.
+Requisitos:O número de bombas ao redor da célula 9x15 deve ser igual a 0.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_10x16_1_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 1.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 1.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 2.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 2.
+
+Método: test_contar_bombas_ao_redor_0x0__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x0 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x0 e que contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x1__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x4__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x6__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_0x7__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 0x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 0x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x0__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x1__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x4__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x6__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_1x7__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 1x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 1x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x0__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x0 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x1__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x1 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x4__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x4 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x6__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x6 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_4x7__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 4x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 4x7 contenha uma bomba, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x1__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x4__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x6__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_6x7__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 6x7 (canto superior esquerdo) deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 6x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x0__tabuleiro_10x16_2_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x0 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x0 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x1__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x1 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x1 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x4__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x4 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x4 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7  deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x6__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x6 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x6 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
+
+Método: test_contar_bombas_ao_redor_7x7__tabuleiro_10x16_3_bomba
+Descrição: O teste verifica a funcionalidade do método contar_bombas_ao_redor na classe Tabuleiro_minado.
+           Especificamente, ele testa a situação em que o tabuleiro minado é vazio, e contem uma bomba, e a célula 7x7 deve ser verificada quanto à contagem de bombas ao redor.
+           O resultado esperado é que a célula 7x7 contenha uma bomba ao seu redor, e, portanto, a contagem de bombas deve ser igual a 3.
+Requisitos:O número de bombas ao redor da célula 7x7 deve ser igual a 3.
